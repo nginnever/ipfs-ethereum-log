@@ -17,7 +17,7 @@ The public key used in the signing of the init transaction will be given ownersh
 
 ### Add
 
-```regInstance.add(key, value```
+```regInstance.add(key, value)```
 
 - Where key is the index to the items added to the log
 - Value is the content stored in the log (ipfs hash)
