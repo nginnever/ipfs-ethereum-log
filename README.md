@@ -1,4 +1,4 @@
-#### Ethereum IPFS Log
+# Ethereum IPFS Log
 
 A simple append only log of IPFS merkle dag objects in the Ethereum blockchain
 
@@ -6,7 +6,7 @@ A simple append only log of IPFS merkle dag objects in the Ethereum blockchain
 
 to interface with the log two functions are exposed.
 
-# Init
+### Init
 
 ```regInstance.init(key, value)```
 
@@ -15,7 +15,7 @@ to interface with the log two functions are exposed.
 
 The public key used in the signing of the init transaction will be given ownership of the node added to the linked list. From this point on only that public key can change the data in the node.
 
-# Add
+### Add
 
 ```regInstance.add(key, value```
 
